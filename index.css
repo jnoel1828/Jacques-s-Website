@@ -4,13 +4,13 @@ h1 {
   text-align: center;
 }
 h1 {
-  border-top: 5px solid red;
+  border-top: 15px solid red;
 }
 
 h2 {
-  border-top: 4px dotted blue;
+  border-top: 4px white;
 }
 
 div {
-  border-top: double;
+  border-top: triple;
 }
