@@ -3,3 +3,14 @@ h1 {
   font-size: 32px;
   text-align: center;
 }
+h1 {
+  border-top: 5px solid red;
+}
+
+h2 {
+  border-top: 4px dotted blue;
+}
+
+div {
+  border-top: double;
+}
