@@ -12,6 +12,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: black;
+  
 }
 
 li {
@@ -27,7 +28,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: red;
 }
 </style>
 </head>
@@ -52,7 +53,13 @@ body {
   width: 200px;
   border-start-end-radius: 50px;
 }
-
+.header {
+    width: auto;
+    padding: 100px;
+    background-image:url("https://vastphotos.com/files/uploads/photos/11796/us-capitol-building-large-print-l.jpg?v=20240628121909");
+    background-repeat: no-repeat;
+    background-size:cover, contain;
+}
 footer {
   position: fixed;
   left: 0;
@@ -80,8 +87,10 @@ div.mycontainer {
   text-align: justified;
 }
 div.mycontainer div {
-  width:33%;  
+  width:33.25%;  
   float:left;
+  overflow:visible;
+text-align: center;
 }
 
 h3 { 
