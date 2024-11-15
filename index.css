@@ -1,26 +1,3 @@
-h1 {
-  color: Red;
-  font-size: 62px;
-  text-align: center;
-}
-h1 {
-  border-top: 15px solid red;
-}
-
-h2 {
-  border-top: 4px white;
-}
-
-div {
-  border-top: triple;
-}
-.navbar ul{
-    inline-style-type
-}
-p {
-  style="text-align:center;">Centered paragraph.
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -45,11 +22,7 @@ li a {
 li a:hover {
   background-color: red;
 }
-</style>
-</head>
 
-<body>
-<style>
 body {
   margin: 0;
 }
@@ -61,9 +34,7 @@ body {
 font-size: 100px;
 }
 
-</style>
-</head>
-<style>  {
+{
   background-color: white;
   height: 200px;
   width: 200px;
@@ -115,4 +86,16 @@ h3 {
 
 p1 { 
   text-align: center;
+}
+
+h1 {font-size: 300px;}
+h2 {font-size: 48px;}
+h3 {font-size: 26px;}
+h4 {font-size: 14px;}
+h5 {font-size: 10px;}
+h6 {font-size: 8px;}
+
+div {
+  padding: 50px;
+  border: 1px solid white;
 }
