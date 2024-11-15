@@ -5,6 +5,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script>
+function confirmInput() {
+  fname = document.forms[0].fname.value;
+  alert("Hello "+ fname +"! Thank You For Reaching Out. A Vangaurd Representative Will Reach Out To You.");
+}
+</script>
 <style>
 ul {
   list-style-type: none;
@@ -188,13 +194,13 @@ Vanguard’s marking, tracking, mobile scanning/printing technologies and suppor
 <section>
 <h2>Connect With Vanguard</h2>
 
-<form action="/action_page.php">
+<form onsubmit="confirmInput()" action="submitted.html">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
+  <input type="text" id="fname" name="fname" value=" "><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <input type="text" id="lname" name="lname" value=" "><br>
   <label for="email">Email:</label><br>
-  <input type="text" id="email" name="emmail" value="jDoe@gov.com"><br><br>
+  <input type="text" id="email" name="emmail" value=" "><br><br>
   <input type="submit" value="Submit">
 </form> 
 
@@ -206,5 +212,7 @@ Vanguard’s marking, tracking, mobile scanning/printing technologies and suppor
   <p>Vangaurd Government IT Services</p>
 </footer>
 
+</body>
+</html>
 </body>
 </html>
